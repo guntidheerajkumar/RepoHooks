@@ -1,0 +1,15 @@
+npm install grunt
+npm install --save-dev load-grunt-tasks
+npm install --save-dev time-grunt
+npm install --save-dev grunt-concurrent
+npm install --save-dev grunt-dotnet-assembly-info
+npm install --save-dev grunt-git-hooks
+npm install --save-dev grunt-githooks
+npm install --save-dev grunt-msbuild
+npm install --save-dev grunt-nuget
+npm install --save-dev grunt-mstest
+
+git init
+
+grunt githooks
+
